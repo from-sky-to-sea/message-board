@@ -5,3 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+print 'MessageModel '
+10.times do |n|
+  Message.create!(content: "hello#{n}")
+  print "."
+end
+puts ' ->ok'
