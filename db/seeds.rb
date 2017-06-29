@@ -7,7 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 print 'MessageModel '
 10.times do |n|
-  Message.create!(content: "hello#{n}")
+  Message.create!(content: "hello#{n}", title: "title")
   print "."
 end
 puts ' ->ok'
